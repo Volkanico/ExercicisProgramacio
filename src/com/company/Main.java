@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int num;
+        int num = 0;
         boolean exit = false;
 
         System.out.println("Introdueix un text nou: ");
@@ -25,13 +25,16 @@ public class Main {
             num = sc.nextInt();
             if(num == 1) {
                 exit = true;
-
             }
-
-
         }
 
         Practica1 p1 = new Practica1();
         p1.PracticaEx2();
+        p1.PracticaEx3();
+        p1.PracticaEx4();
+        p1.PracticaEx5();
+        p1.PracticaEx8();
+        p1.PracticaEx9();
+
     }
 }
